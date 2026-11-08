@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "AR LIMPO",
+    "slug": "ar-limpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "br.unip.arlimpo",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "plugins": [
+      ["expo-location", { "locationAlwaysAndWhenInUsePermission": "O aplicativo usa sua localizacao para registrar ocorrencias ambientais." }]
+    ]
+  }
+}
